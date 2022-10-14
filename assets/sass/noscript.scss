@@ -1,0 +1,11 @@
+
+	body {
+		overflow-x: scroll;
+	}
+
+	#wrapper {
+		body.is-preload & {
+			@include vendor('transform', 'none');
+			opacity: 1;
+		}
+	}
